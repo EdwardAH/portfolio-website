@@ -115,7 +115,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900">Email</h3>
-                    <p className="text-gray-600">your.email@example.com</p>
+                    <p className="text-gray-600">edwardhenriquez@gmail.com</p>
                   </div>
                 </div>
 
@@ -125,7 +125,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900">Phone</h3>
-                    <p className="text-gray-600">+1 (555) 123-4567</p>
+                    <p className="text-gray-600">+1 (310) 777-1111</p>
                   </div>
                 </div>
 
@@ -135,7 +135,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900">Location</h3>
-                    <p className="text-gray-600">San Francisco, CA</p>
+                    <p className="text-gray-600">Los Angeles, CA</p>
                   </div>
                 </div>
               </div>
@@ -155,7 +155,7 @@ export default function Contact() {
                     <Github className="text-gray-600" size={20} />
                   </motion.a>
                   <motion.a
-                    href="https://linkedin.com/in/yourusername"
+                    href="https://linkedin.com/in/edward-henriquez"
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.1 }}
@@ -194,7 +194,7 @@ export default function Contact() {
       <footer className="py-8 px-4 sm:px-6 lg:px-8 border-t border-gray-200">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-gray-500">
-            © 2024 Your Name. Built with Next.js and Tailwind CSS.
+            © 2025 Edward Henriquez. 
           </p>
         </div>
       </footer>

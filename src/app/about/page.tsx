@@ -194,7 +194,7 @@ export default function About() {
       <footer className="py-8 px-4 sm:px-6 lg:px-8 border-t border-gray-200">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-gray-500">
-            © 2024 Edward Henriquez. Built with Next.js and Tailwind CSS.
+            © 2025 Edward Henriquez. 
           </p>
         </div>
       </footer>
