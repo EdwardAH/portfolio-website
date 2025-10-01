@@ -244,7 +244,7 @@ export default function Home() {
                 <Mail className="text-white" size={24} />
               </motion.a>
               <motion.a
-                href="https://github.com/yourusername"
+                href="https://github.com/EdwardAH"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 className="w-16 h-16 bg-gradient-to-r from-gray-700 to-gray-900 rounded-full flex items-center justify-center hover:shadow-lg transition-all"
@@ -252,7 +252,7 @@ export default function Home() {
                 <Github className="text-white" size={24} />
               </motion.a>
               <motion.a
-                href="https://linkedin.com/in/yourusername"
+                href="https://linkedin.com/in/edward-henriquez"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 className="w-16 h-16 bg-gradient-to-r from-gray-700 to-gray-900 rounded-full flex items-center justify-center hover:shadow-lg transition-all"
