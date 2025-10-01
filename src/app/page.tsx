@@ -236,7 +236,7 @@ export default function Home() {
             
             <div className="flex justify-center space-x-6 mb-12">
               <motion.a
-                href="mailto:your.email@example.com"
+                href="mailto:edwardhenriquez@gmail.com"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 className="w-16 h-16 bg-gradient-to-r from-gray-700 to-gray-900 rounded-full flex items-center justify-center hover:shadow-lg transition-all"
@@ -277,7 +277,7 @@ export default function Home() {
       <footer className="py-8 px-4 sm:px-6 lg:px-8 border-t border-gray-200">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-gray-500">
-            © 2024 Edward Henriquez. Built with Next.js and Tailwind CSS.
+            © 2025 Edward Henriquez. 
           </p>
         </div>
       </footer>
