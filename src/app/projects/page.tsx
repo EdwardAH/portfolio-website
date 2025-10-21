@@ -7,13 +7,13 @@ import Link from 'next/link';
 export default function Projects() {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, product management, shopping cart, and payment integration.',
-      image: '🛒',
-      tech: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Express', 'JWT'],
+      title: 'FitTrackr',
+      description: 'A full-stack fitness tracking application built with React and Firebase. Features include user authentication, workout and meal logging, progress visualization with charts, and cloud-based data storage for real-time updates.',
+      image: '🏋️',
+      tech: ['React', 'Next.js','Firebase', 'Firestore', 'Chart.js','Firebase Hosting'],
       github: 'https://github.com/yourusername/ecommerce-platform',
       demo: 'https://ecommerce-demo.vercel.app',
-      date: '2024',
+      date: '2025',
       category: 'Full Stack'
     },
     {
