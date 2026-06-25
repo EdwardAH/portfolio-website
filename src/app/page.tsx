@@ -105,7 +105,7 @@ export default function Home() {
             </p>
           </motion.div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
                 title: 'Frontend Development',
@@ -121,21 +121,44 @@ export default function Home() {
                 title: 'UI/UX Design',
                 description: 'Figma, User Research, Prototyping',
                 icon: '✨'
+              },
+              {
+                title: 'Project Management',
+                description: 'Agile, Scrum, Roadmapping, Stakeholder Communication',
+                icon: '📊',
+                href: '/project-management'
               }
-            ].map((skill, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: index * 0.2 }}
-                viewport={{ once: true }}
-                className="bg-white backdrop-blur-sm rounded-2xl p-8 border border-gray-200 hover:bg-gray-50 transition-all shadow-sm"
-              >
-                <div className="text-4xl mb-4">{skill.icon}</div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">{skill.title}</h3>
-                <p className="text-gray-600">{skill.description}</p>
-              </motion.div>
-            ))}
+            ].map((skill, index) => {
+              const card = (
+                <>
+                  <div className="text-4xl mb-4">{skill.icon}</div>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-3">{skill.title}</h3>
+                  <p className="text-gray-600">{skill.description}</p>
+                </>
+              );
+
+              return (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8, delay: index * 0.2 }}
+                  viewport={{ once: true }}
+                  className="bg-white backdrop-blur-sm rounded-2xl p-8 border border-gray-200 hover:bg-gray-50 transition-all shadow-sm"
+                >
+                  {'href' in skill && skill.href ? (
+                    <Link href={skill.href} className="block group">
+                      {card}
+                      <span className="inline-block mt-4 text-sm font-medium text-gray-700 group-hover:text-gray-900 transition-colors">
+                        View projects →
+                      </span>
+                    </Link>
+                  ) : (
+                    card
+                  )}
+                </motion.div>
+              );
+            })}
           </div>
         </div>
       </section>
